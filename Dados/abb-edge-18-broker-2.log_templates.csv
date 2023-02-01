@@ -1,0 +1,8 @@
+EventId,EventTemplate,Occurrences
+b318a04a,Saving in-memory database to /mosquitto/mosquitto.db.,7361
+f7c14a2e,Warning ACL pattern <*> does not contain '%c' or '%u'.,8
+72fc4c37,New client connected from 10.0.1.4 as <*> (p2 <*> <*> <*>,7
+601f8224,mosquitto version 1.6.12 <*>,2
+ed44beee,Config loaded from /mosquitto/mosquitto.conf.,1
+afc0e2cb,Opening <*> listen socket on port 1883.,2
+a32dc633,New connection from 10.0.1.4 on port 1883.,7

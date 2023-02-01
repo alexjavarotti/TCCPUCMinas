@@ -1,0 +1,25 @@
+EventId,EventTemplate,Occurrences
+97c1b109,Connected.,1
+e2d1acd9,Edge instance has been created or updated with config version 3. Provision is done.,1
+98905022,Edge Config Model Persist data BatchEntries >500 BatchDuration >1000 BatchTypes >timeSeries alarm event MaxDeviceMessageSize >256 TelemetrySkipValidation >False TelemetryCompression >deflate ContentEncoding >deflate ConnectivityMode >connected LogLevel >info,1
+954da85d,Connection is established.,2
+21ec5a9f,Connecting to AbiGtwyIthiia07EunBdv.azure-devices.net,1
+368e49f2,Sending system report.,25
+4c70812a,Fetching IM public key,1
+dfcebab9,Allocating device for ff71118e-391a-4e96-94be-ea85cd68139b.,1
+8c997508,Updating System Module <*>,2
+73b979dd,Common Diagnostic Check is passed.,4
+3cdc0eb3,Received model <*> of edge-proxy,3
+1022312f,Establishing outbound connection with MQTT broker,1
+d2f576e5,IoTHub connection is established. ff71118e-391a-4e96-94be-ea85cd68139b AbiGtwyIthiia07EunBdv.azure-devices.net,1
+7459b2e9,IoTHub AbiGtwyIthiia07EunBdv.azure-devices.net has been allocated by DPS.,1
+9888cde4,Existing Edge instance found. Provision is done.,1
+f251650c,Upsert bootstrap-agent abbiapcpdev.azurecr.io/edge-proxy-enhanced 1.217.2.24891 to file at /var/ability/modules/imagesInUse.json,1
+1d99ef5c,Pending to create Edge with correlation ID 139510f2-2065-4091-89ff-9d6a2f191d86.,1
+e6d24bb1,Establishing inbound connection with MQTT broker attempt #1,1
+50f6770d,Exposing Information Model public key to all modules.,1
+f6acc8b0,"Diagnostic Check is pass. {""ENABLE_INET_DIAGNOSTIC_CHECK"" ""Pass"" ""ENABLE_DEVICE_CERT_AVAILABLY_DIAGNOSTIC_CHECK"" ""Pass"" ""ENABLE_DEVICE_CERT_VALIDITY_DIAGNOSTIC_CHECK"" ""Pass"" ""ENABLE_DNS_RESOLUTION_DIAGNOSTIC_CHECK"" ""Pass""}",4
+687233ab,"Applying module changes added [] removed [] updated [ ""edge-broker"" ""edge-proxy"" ].",1
+f78b4b4e,Heartbeat requested,49
+01d5ed8b,Upsert <*> <*> <*> <*> to file at /var/ability/modules/imagesInUse.json,2
+d441c4e8,<*> <*> <*> <*> to version <*> with correlation ID de232d8e-4449-4e27-8122-d795d7c9319a.,2

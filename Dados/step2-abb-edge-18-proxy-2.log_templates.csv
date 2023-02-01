@@ -1,0 +1,51 @@
+EventId,EventTemplate,Occurrences
+f990bfc8,Edge instance has been created or updated with config version 10. Provision is done.,1
+2e4aeb52,"Applying module changes added [ ""csconnectbroker"" ""edgerouter"" ""controlsystemconnect"" ] removed [] updated [ ""edge-proxy"" ""edge-broker"" ].",1
+2069af4b,"Object model for Typed Module created successfully with payload '{""success"" true ""code"" ""ok"" ""details"" """" ""objectId"" <*> ""relatedModels"" []}'.",2
+43d0e2c6,Sending telemetry message to report that module state of <*> is running and it is using image <*> <*> <*>,3
+98905022,Edge Config Model Persist data BatchEntries >500 BatchDuration >1000 BatchTypes >timeSeries alarm event MaxDeviceMessageSize >256 TelemetrySkipValidation >False TelemetryCompression >deflate ContentEncoding >deflate ConnectivityMode >connected LogLevel >info,1
+c0f92997,Error while connecting with broker. at MQTTnet.Implementations.CrossPlatformSocket.ConnectAsync(String host Int32 port CancellationToken cancellationToken) at MQTTnet.Implementations.MqttTcpChannel.ConnectAsync(CancellationToken cancellationToken) at MQTTnet.Internal.MqttTaskTimeout.WaitAsync(Func`2 action TimeSpan timeout CancellationToken cancellationToken) at MQTTnet.Adapter.MqttChannelAdapter.ConnectAsync(TimeSpan timeout CancellationToken cancellationToken) at MQTTnet.Client.MqttCustomClient.ConnectAsync(IMqttClientOptions options CancellationToken cancellationToken) in /src/ABB.Ability.IoTEdge.Common.Abstractions/Mqtt/MqttCustomClient.cs line 131,2
+97c1b109,Connected.,2
+591846cc,Disconnected.,4
+954da85d,Connection is established.,2
+21ec5a9f,Connecting to AbiGtwyIthiia07EunBdv.azure-devices.net,1
+368e49f2,Sending system report.,139
+4c70812a,Fetching IM public key,3
+d1b75c6f,Allocating device for d8d7a22a-14fe-4973-83d0-428359601d83.,1
+c9ae8490,MQTT client is disconnected,1
+73b979dd,Common Diagnostic Check is passed.,4
+467075b0,Forwarding <*> to target <*>,8
+c0a5a082,Received model <*> of <*>,23
+1022312f,Establishing outbound connection with MQTT broker,2
+b1857ede,IoTHub connection is established. d8d7a22a-14fe-4973-83d0-428359601d83 AbiGtwyIthiia07EunBdv.azure-devices.net,1
+c3b3660a,Creating reference between <*> and edge-proxy.,3
+c8b5a8a5,Forwarding model.query after successful model.create ''.,3
+0981563d,Identity for the module <*> exist,3
+7459b2e9,IoTHub AbiGtwyIthiia07EunBdv.azure-devices.net has been allocated by DPS.,1
+64cce4cc,Pending to create Typed Module <*> .,3
+9888cde4,Existing Edge instance found. Provision is done.,1
+fcb250b9,Updating Typed Module <*> to revision 2.,3
+582ff389,Pending to create Edge with correlation ID 519e7475-83b9-417b-a1f5-602bf831307d.,1
+20fb8931,Establishing inbound connection with MQTT broker attempt <*>,5
+50f6770d,Exposing Information Model public key to all modules.,3
+9ae61561,MQTT connection is lost invoking connection lost trigger,2
+374d6269,Creating identity for the module <*> with correlationId <*>,3
+ed5119a1,Failed to update Edge's device model with correlation ID d5d46a0d-a466-4ffb-b818-94df1ee4275c.,1
+cd4e26e0,Creating object model for the module <*> with correlationId <*>,3
+c632c87d,"Syncing configuration { ""type"" 1 ""objectId"" <*> } of <*>",7
+f6acc8b0,"Diagnostic Check is pass. {""ENABLE_INET_DIAGNOSTIC_CHECK"" ""Pass"" ""ENABLE_DEVICE_CERT_AVAILABLY_DIAGNOSTIC_CHECK"" ""Pass"" ""ENABLE_DEVICE_CERT_VALIDITY_DIAGNOSTIC_CHECK"" ""Pass"" ""ENABLE_DNS_RESOLUTION_DIAGNOSTIC_CHECK"" ""Pass""}",4
+e8d80cca,Module exists and it is updated and its configuration is not empty,3
+b673e774,"Object model for Typed Module created successfully with payload '{""success"" true ""code"" ""ok"" ""details"" """" ""objectId"" ""646860fa-5cc5-479f-893f-57318e136301"" ""relatedModels"" [{""model"" ""abb.ability.configuration"" ""success"" true ""code"" ""ok"" ""details"" """"}]}'.",1
+84ecd68a,Error while connecting with broker. at MQTTnet.Internal.MqttTaskTimeout.WaitAsync(Func`2 action TimeSpan timeout CancellationToken cancellationToken) at MQTTnet.Adapter.MqttChannelAdapter.ConnectAsync(TimeSpan timeout CancellationToken cancellationToken) at MQTTnet.Client.MqttCustomClient.ConnectAsync(IMqttClientOptions options CancellationToken cancellationToken) in /src/ABB.Ability.IoTEdge.Common.Abstractions/Mqtt/MqttCustomClient.cs line 131,1
+f78b4b4e,Heartbeat requested,276
+da7ff3f6,Updating Edge's device model to version <*> with correlation ID <*>,7
+15f08636,Edge's device model updated to version <*> with correlation ID <*>,6
+8c997508,Updating System Module <*>,2
+be3b9359,Creating Typed Module <*>,3
+f251650c,Upsert bootstrap-agent abbiapcpdev.azurecr.io/edge-proxy-enhanced 1.217.2.24891 to file at /var/ability/modules/imagesInUse.json,1
+5f911ecf,Connection is lost. Trying to establish it again.,2
+1ffcec7c,Upsert edge-proxy abbiapcpdev.azurecr.io/edge-agent 0.34.0@sha256 25158307011a8cf0a3f0ac177fbaa73b8ef0275c91af590bd92a7322051b0a64 to file at /var/ability/modules/imagesInUse.json,1
+1845ac8d,Upsert edge-broker abbiapcpdev.azurecr.io/edge/broker 1.6.12-4@sha256 01e222cbe4eff678bcca58cf8d0d4952565e01c14038fe273c071b30dca83ef2 to file at /var/ability/modules/imagesInUse.json,1
+33a808ef,Upsert csconnectbroker abbiapcpdev.azurecr.io/edge-connect-broker 1.22.8.27942@sha256 7f63798b87f494af2c2ee532197947b152bad36bf5110643088c0a8182d0b35d to file at /var/ability/modules/imagesInUse.json,2
+7c846fa0,Upsert edgerouter abbiapcpdev.azurecr.io/edge-router 1.21.67.53356@sha256 15e827441db8175346a4f3ef319d77d1aa3e0a351a998bead75398220669b562 to file at /var/ability/modules/imagesInUse.json,2
+5aae11d0,Upsert controlsystemconnect abbiapcpdev.azurecr.io/control-system-connect 1.25.7.1084@sha256 761be171540042e93f1c523edd1a5ad5162e97102cc526b0aebdba037942aeb5 to file at /var/ability/modules/imagesInUse.json,2
